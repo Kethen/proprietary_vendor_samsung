@@ -5,3 +5,42 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "hwcomposer.exynos5",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/hwcomposer.exynos5.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/hwcomposer.exynos5.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+	shared_libs: [
+		"libbfqio"
+	],
+	relative_install_path: "hw"
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.neuralnetworks@1.1-service-armnn",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	srcs: ["proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-armnn"],
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+	shared_libs: [
+		"libtextclassifier_hash"
+	],
+	relative_install_path: "hw"
+}
