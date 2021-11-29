@@ -5,3 +5,23 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+       name: "libLifevibes_lvsa",
+       owner: "samsung",
+       strip: {
+               none: true,
+       },
+       target: {
+               android_arm: {
+                       srcs: ["proprietary/vendor/lib/soundfx/libLifevibes_lvsa.so"],
+               },
+       },
+       compile_multilib: "both",
+       check_elf_files: false,
+       prefer: true,
+       soc_specific: true,
+       shared_libs: [
+               "libstdc++"
+       ],
+       relative_install_path: "soundfx"
+}
