@@ -8,26 +8,26 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/universal8890-common/proprietary/bin/move_widevine_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_widevine_data.sh \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp1-trace.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp1-trace.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-evs.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp2-tx-evs.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-evs.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp2-tx-evs.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-nbwb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp2-tx-nbwb.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-nbwb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp2-tx-nbwb.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp2-tx-swb.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-evs.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-evs.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-evs.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-evs.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-nbwb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-nbwb.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-nbwb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-nbwb.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-swb-interview.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-swb.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-evs.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp4-rx-anc-evs.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-evs.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp4-rx-anc-evs.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-nbwb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp4-rx-anc-nbwb.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-nbwb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp4-rx-anc-nbwb.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp5-dsm.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp5-dsm.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp5-dsm.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp6-ez2-control.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp6-lpsd-control.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp1-trace.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp1-trace.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-evs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-evs.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-evs.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-evs.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-nbwb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-nbwb.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-nbwb.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-nbwb.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-swb.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-swb.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-evs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-evs.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-evs.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-evs.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-nbwb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-nbwb.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-nbwb.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-nbwb.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-swb-interview.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-swb.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-swb.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-evs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp4-rx-anc-evs.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-evs.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp4-rx-anc-evs.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-nbwb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp4-rx-anc-nbwb.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-nbwb.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp4-rx-anc-nbwb.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp5-dsm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp5-dsm.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp5-dsm.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp6-ez2-control.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp6-lpsd-control.bin \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gpscommon.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.exynos5.so \
