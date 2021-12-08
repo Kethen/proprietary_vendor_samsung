@@ -30,7 +30,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_binary {
-	name: "android.hardware.neuralnetworks@1.1-service-armnn",
+	name: "android.hardware.neuralnetworks@1.1-service-armnn-universal8890",
 	owner: "samsung",
 	strip: {
 		none: true,
