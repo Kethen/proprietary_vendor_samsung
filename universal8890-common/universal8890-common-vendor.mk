@@ -8,33 +8,33 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/universal8890-common/proprietary/bin/move_widevine_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_widevine_data.sh \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp1-trace.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp1-trace.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-evs.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp2-tx-evs.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-evs.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp2-tx-evs.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-nbwb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp2-tx-nbwb.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-nbwb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp2-tx-nbwb.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp2-tx-swb.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-evs.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-evs.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-evs.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-evs.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-nbwb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-nbwb.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-nbwb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-nbwb.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-swb-interview.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-swb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp3-tx-swb.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-evs.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp4-rx-anc-evs.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-evs.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp4-rx-anc-evs.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-nbwb.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp4-rx-anc-nbwb.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-nbwb.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp4-rx-anc-nbwb.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp5-dsm.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp5-dsm.bin \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp5-dsm.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp6-ez2-control.wmfw \
-    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp6-lpsd-control.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp1-trace.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp1-trace.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-evs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-evs.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-evs.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-evs.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-nbwb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-nbwb.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-nbwb.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-nbwb.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-swb.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-swb.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-evs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-evs.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-evs.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-evs.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-nbwb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-nbwb.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-nbwb.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-nbwb.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-swb-interview.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-swb-interview.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp3-tx-swb.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp3-tx-swb.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-evs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp4-rx-anc-evs.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-evs.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp4-rx-anc-evs.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-nbwb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp4-rx-anc-nbwb.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp4-rx-anc-nbwb.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp4-rx-anc-nbwb.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp5-dsm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp5-dsm.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp5-dsm.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp6-ez2-control.wmfw \
+    vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp6-lpsd-control.bin \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gpscommon.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
-    vendor/samsung/universal8890-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
+    vendor/samsung/universal8890-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libhr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhr.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
+	vendor/samsung/universal8890-common/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniapi.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
@@ -72,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
+    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/samsung/universal8890-common/proprietary/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
@@ -103,20 +105,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/media/slow_charging_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/slow_charging_usb.spi \
     vendor/samsung/universal8890-common/proprietary/media/temperature_limit_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/temperature_limit_usb.spi \
     vendor/samsung/universal8890-common/proprietary/media/water_protection_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/water_protection_usb.spi \
-    vendor/samsung/universal8890-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
+    vendor/samsung/universal8890-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
-    vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
-    vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-armnn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.1-service-armnn \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/lhd \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
-    vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.1-service-armnn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.1-service-armnn.rc \
+    vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-armnn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.1-service-armnn \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
@@ -173,21 +173,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengmode_client.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril-dsds.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsec_semRil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec_semRil.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecril-client.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsemnativecarrierfeature.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefright_bufferqueue_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferqueue_helper_vendor.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefright_omx_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_omx_utils.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefright_omx_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_omx_vendor.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_g711dec.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_rawdec.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefright_soft_vorbisdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vorbisdec.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_xmlparser.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvkmanager_vendor.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
@@ -195,7 +186,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.bio.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
@@ -209,7 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflicker.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril-dsds.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libsec_semRil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec_semRil.so \
@@ -221,7 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.bio.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
@@ -229,7 +217,6 @@ PRODUCT_COPY_FILES += \
 
 ifeq ($(WITH_EXYNOS_BSP),)
 PRODUCT_COPY_FILES += \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
@@ -240,7 +227,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwcutils.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libvirtualdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvirtualdisplay.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.universal8890.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
@@ -251,4 +237,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwcutils.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libvirtualdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvirtualdisplay.so
-endif
+endif #WITH_EXYNOS_BSP
+
+PRODUCT_PACKAGES += \
+    hwcomposer.exynos5 \
+    sensors.sensorhub \
+    android.hardware.drm@1.1-service.widevine \
+    vendor.samsung.hardware.gnss@1.0-service

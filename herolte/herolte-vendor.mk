@@ -6,22 +6,22 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/herolte
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/00060308060501020000000000000000.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000014.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000001f.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000001f.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
-    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000014.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000001f.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000001f.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
+    vendor/samsung/herolte/proprietary/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
     vendor/samsung/herolte/proprietary/vendor/lib64/vendor.samsung.security.skeymaster@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.skeymaster@3.0.so \
     vendor/samsung/herolte/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/samsung/herolte/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin \
@@ -205,7 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/herolte/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/herolte/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
     vendor/samsung/herolte/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
-    vendor/samsung/herolte/proprietary/vendor/lib/soundfx/libLifevibes_lvsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvsa.so \
     vendor/samsung/herolte/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
     vendor/samsung/herolte/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so \
     vendor/samsung/herolte/proprietary/vendor/lib64/hw/gatekeeper.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.universal8890.so \
@@ -220,3 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/herolte/proprietary/vendor/lib64/libkeymaster_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_mdfpp.so \
     vendor/samsung/herolte/proprietary/vendor/lib64/libskeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskeymaster.so \
     vendor/samsung/herolte/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so
+
+PRODUCT_PACKAGES += \
+    libLifevibes_lvsa
