@@ -5,3 +5,120 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+       name: "hwcomposer.exynos5",
+       owner: "samsung",
+       strip: {
+               none: true
+       },
+       target: {
+               android_arm: {
+                       srcs: ["proprietary/vendor/lib/hw/hwcomposer.exynos5.so"]
+               },
+               android_arm64: {
+                       srcs: ["proprietary/vendor/lib64/hw/hwcomposer.exynos5.so"]
+               },
+       },
+       compile_multilib: "both",
+       check_elf_files: false,
+       prefer: true,
+       soc_specific: true,
+       relative_install_path: "hw"
+}
+
+cc_prebuilt_library_shared {
+       name: "sensors.sensorhub",
+       owner: "samsung",
+       strip: {
+               none: true
+       },
+       target: {
+               android_arm: {
+                       srcs: ["proprietary/vendor/lib/sensors.sensorhub.so"]
+               },
+               android_arm64: {
+                       srcs: ["proprietary/vendor/lib64/sensors.sensorhub.so"]
+               },
+       },
+       compile_multilib: "both",
+       check_elf_files: false,
+       prefer: true,
+       soc_specific: true,
+       shared_libs: [
+               "android.frameworks.schedulerservice@1.0"
+       ]
+}
+
+cc_prebuilt_binary {
+       name: "android.hardware.drm@1.1-service.widevine",
+       owner: "samsung",
+       strip: {
+               none: true
+       },
+       compile_multilib: "32",
+       srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine"],
+       shared_libs: [
+               "android.hardware.drm@1.0",
+               "android.hardware.drm@1.1"
+       ],
+       check_elf_files: false,
+       prefer: true,
+       soc_specific: true,
+       relative_install_path: "hw"
+}
+
+cc_prebuilt_library_shared {
+       name: "libril",
+       owner: "samsung",
+       strip: {
+               none: true
+       },
+       target: {
+               android_arm: {
+                       srcs: ["proprietary/vendor/lib/libril.so"]
+               },
+               android_arm64: {
+                       srcs: ["proprietary/vendor/lib64/libril.so"]
+               },
+       },
+       compile_multilib: "both",
+       check_elf_files: false,
+       prefer: true,
+       soc_specific: true,
+       shared_libs: [
+               "android.hardware.radio@1.0",
+               "android.hardware.radio@1.1",
+               "android.hardware.radio.deprecated@1.0",
+               "android.hardware.radio.config@1.0",
+               "android.hardware.radio.config@1.1",
+               "android.hardware.radio.config@1.2",
+               "android.hardware.radio@1.2",
+               "android.hardware.radio@1.3",
+               "android.hardware.radio@1.4",
+               "liblog",
+               "libutils",
+               "libcutils",
+               "libhardware_legacy",
+               "librilutils",
+               "libhidlbase"
+       ],
+       export_include_dirs: ["libril_include"]
+}
+
+cc_prebuilt_binary {
+       name: "vendor.samsung.hardware.gnss@1.0-service",
+       owner: "samsung",
+       strip: {
+               none: true
+       },
+       compile_multilib: "64",
+       srcs: ["proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service"],
+       shared_libs: [
+               "android.hardware.gnss@1.0",
+               "android.hardware.gnss@1.1"
+       ],
+       check_elf_files: false,
+       prefer: true,
+       soc_specific: true,
+       relative_install_path: "hw"
+}
