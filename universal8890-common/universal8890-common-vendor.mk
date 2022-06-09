@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
+    vendor/samsung/universal8890-common/proprietary/bin/relocate_biometrics:$(TARGET_COPY_OUT_VENDOR)/bin/relocate_biometrics \
     vendor/samsung/universal8890-common/proprietary/bin/move_widevine_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_widevine_data.sh \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp1-trace.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp1-trace.wmfw \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-evs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-evs.bin \
