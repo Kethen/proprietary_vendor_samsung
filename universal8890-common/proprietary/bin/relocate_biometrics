@@ -1,0 +1,17 @@
+#!/vendor/bin/sh
+if [ -e /data/biometrics ]
+then
+	if ! [ -h /data/biometrics ]
+	then
+		rm -r /data/biometrics
+		if ! [ -d /data/vendor/biometrics/redirect ]
+		then
+			mkdir -p /data/vendor/biometrics/redirect
+			restorecon /data/vendor/biometrics/redirect
+			chown system:system /data/vendor/biometrics/redirect
+			chmod 770 /data/vendor/biometrics/redirect
+		fi
+		ln -s /data/vendor/biometrics/redirect /data/biometrics
+	fi
+fi
+
