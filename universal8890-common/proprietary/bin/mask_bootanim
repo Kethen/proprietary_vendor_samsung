@@ -1,0 +1,4 @@
+#!/vendor/bin/sh
+# fixes phh gsis, which starts bootanim in charger mode for some reason
+mount -o bind /system/bin/true /system/bin/bootanimation
+mount -o bind /system/bin/true /system/bin/surfaceflinger

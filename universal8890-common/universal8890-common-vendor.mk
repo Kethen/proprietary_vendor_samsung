@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_VENDOR)/bin/lpm \
+    vendor/samsung/universal8890-common/proprietary/bin/mask_bootanim:$(TARGET_COPY_OUT_VENDOR)/bin/mask_bootanim \
     vendor/samsung/universal8890-common/proprietary/bin/relocate_biometrics:$(TARGET_COPY_OUT_VENDOR)/bin/relocate_biometrics \
     vendor/samsung/universal8890-common/proprietary/bin/move_widevine_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_widevine_data.sh \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp1-trace.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp1-trace.wmfw \
@@ -29,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp5-dsm.wmfw \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp6-ez2-control.wmfw \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp6-lpsd-control.bin \
+    vendor/samsung/universal8890-common/proprietary/etc/init/mask_bootanim.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mask_bootanim.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gpscommon.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.exynos5.so \
