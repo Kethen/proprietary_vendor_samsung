@@ -1,0 +1,13 @@
+#!/vendor/bin/sh
+if [ -e /data/misc/conn ]
+then
+	if ! [ -h /data/misc/conn ]
+	then
+		rm -r /data/misc/conn
+	fi
+fi
+
+if ! [ -h /data/misc/conn ]
+then
+	ln -s /data/vendor/conn /data/misc/conn
+fi

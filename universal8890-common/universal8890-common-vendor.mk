@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_VENDOR)/bin/lpm \
     vendor/samsung/universal8890-common/proprietary/bin/mask_bootanim:$(TARGET_COPY_OUT_VENDOR)/bin/mask_bootanim \
     vendor/samsung/universal8890-common/proprietary/bin/relocate_biometrics:$(TARGET_COPY_OUT_VENDOR)/bin/relocate_biometrics \
+    vendor/samsung/universal8890-common/proprietary/bin/relocate_conn:$(TARGET_COPY_OUT_VENDOR)/bin/relocate_conn \
     vendor/samsung/universal8890-common/proprietary/bin/move_widevine_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_widevine_data.sh \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp1-trace.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp1-trace.wmfw \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp2-tx-evs.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/moon-dsp2-tx-evs.bin \
@@ -125,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/lhd \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
+    vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/wifiloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wifiloader \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service \
@@ -150,13 +152,44 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_clm.blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_clm.blob \
-    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_c0_plus_blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_c0_plus_blob \
-    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_c0_plus_blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_c0_plus_blob \
-    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_c0_plus_blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_c0_plus_blob \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_b90s_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_c0 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_b90s_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_c0 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b1  \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b90s_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_c0 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_b90s_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_c0 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b90s_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b90s_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_c0 \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
-    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram.txt_c0_plus:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_c0_plus \
-    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram.txt_murata_c0_plus:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_murata_c0_plus \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_c0 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_c0 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_c0 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_net.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_net.txt_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_c0 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_c0 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_b1 \
+    vendor/samsung/universal8890-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_c0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_c0 \
+    vendor/samsung/universal8890-common/proprietary/vendor/firmware/bcm4359C0_V0147.0335_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0147.0335_murata.hcd \
+    vendor/samsung/universal8890-common/proprietary/vendor/firmware/bcm4359C0_V0147.0336_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0147.0336_semco.hcd \
+    vendor/samsung/universal8890-common/proprietary/vendor/firmware/bcm4359C0_V0168.0416_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0168.0416_murata.hcd \
+    vendor/samsung/universal8890-common/proprietary/vendor/firmware/bcm4359C0_V0168.0417_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_V0168.0417_semco.hcd \
     vendor/samsung/universal8890-common/proprietary/vendor/firmware/bcm4359C0_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_murata.hcd \
     vendor/samsung/universal8890-common/proprietary/vendor/firmware/bcm4359C0_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359C0_semco.hcd \
     vendor/samsung/universal8890-common/proprietary/vendor/firmware/companion_2l1_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2l1_master_setfile.bin \

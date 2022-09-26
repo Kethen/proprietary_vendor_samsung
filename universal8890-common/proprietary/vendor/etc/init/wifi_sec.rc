@@ -33,18 +33,31 @@ on post-fs-data
     # for WIFI MAC
     chown wifi root /sys/wifi/mac_addr
     chmod 0660 /sys/wifi/mac_addr
-    
+
+    # for WIFI MAC address
+    exec_start relocate_conn
+    mkdir /efs/wifi 0775 radio system
+    chown system wifi /efs/wifi/.mac.info
+    chmod 0666 /efs/wifi/.mac.info
+    start macloader
+
+
 on boot
     setprop wifi.interface wlan0
     setprop wifi.concurrent.interface swlan0
 
 # start for WiFi MFG (TestMode)
-service mfgloader /system/vendor/bin/hw/mfgloader
+#service mfgloader /system/vendor/bin/hw/mfgloader
+#    class main
+#    disabled
+#    oneshot
+
+service macloader /system/vendor/bin/hw/macloader
     class main
     disabled
     oneshot
 
-service macloader /system/vendor/bin/hw/macloader
+service wifiloader /system/vendor/bin/hw/wifiloader
     class main
     oneshot
 
@@ -52,3 +65,10 @@ service macloader /system/vendor/bin/hw/macloader
 
 on property:vold.decrypt=trigger_restart_framework
 exec /system/vendor/bin/hw/macloader
+
+service relocate_conn /vendor/bin/relocate_conn
+    disabled
+    oneshot
+    user root
+    group root
+    seclabel u:r:su:s0
