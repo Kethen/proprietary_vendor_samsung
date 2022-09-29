@@ -44,7 +44,7 @@ on post-fs-data
 
 on boot
     setprop wifi.interface wlan0
-    setprop wifi.concurrent.interface swlan0
+    #setprop wifi.concurrent.interface swlan0
 
 # start for WiFi MFG (TestMode)
 #service mfgloader /system/vendor/bin/hw/mfgloader
