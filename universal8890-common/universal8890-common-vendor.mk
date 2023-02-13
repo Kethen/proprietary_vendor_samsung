@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/media/temperature_limit_usb.spi:$(TARGET_COPY_OUT_VENDOR)/media/temperature_limit_usb.spi \
     vendor/samsung/universal8890-common/proprietary/media/water_protection_usb.spi:$(TARGET_COPY_OUT_VENDOR)/media/water_protection_usb.spi \
     vendor/samsung/universal8890-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
+    vendor/samsung/universal8890-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/universal8890-common/proprietary/vendor/bin/hw/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/lhd \
