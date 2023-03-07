@@ -6,21 +6,21 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/gracerlte
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/00060308060501020000000000000000.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000014.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000042.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000042.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000045.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffff000000000000000000000045.tlbin \
-    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000014.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000042.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000042.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffff000000000000000000000045.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000045.tlbin \
+    vendor/samsung/gracerlte/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/gracerlte/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/samsung/gracerlte/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin \
     vendor/samsung/gracerlte/proprietary/vendor/app/mcRegistry/08130000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/08130000000000000000000000000000.tlbin \
@@ -164,11 +164,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gracerlte/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
-    vendor/samsung/gracerlte/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
-    vendor/samsung/gracerlte/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/hw/gatekeeper.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.universal8890.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
@@ -176,9 +174,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcRegistry.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
-    vendor/samsung/gracerlte/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/libkeymaster_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_mdfpp.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so
+
+PRODUCT_PACKAGES += \
+	libLifevibes_lvsa \
+	libegis_fp_normal_sensor_test
