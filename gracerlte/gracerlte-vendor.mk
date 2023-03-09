@@ -181,5 +181,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gracerlte/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so
 
 PRODUCT_PACKAGES += \
-	libLifevibes_lvsa \
+	libLifevibes_lvverx \
 	libegis_fp_normal_sensor_test

@@ -6,7 +6,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-       name: "libLifevibes_lvverx.so",
+       name: "libLifevibes_lvverx",
        owner: "samsung",
        strip: {
                none: true,
